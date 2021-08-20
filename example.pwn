@@ -1,8 +1,9 @@
-# neuroadmin-samp-wrapper
-Wrapper to use the NeuroAdmin API from Pawn (SAMP)
+/*
+* neuroadmin-samp-wrapper (Example)
+* Wrapper to use the NeuroAdmin API from Pawn (SAMP)
+* GitHub: https://github.com/NeuroTracing/neuroadmin-samp-wrapper
+*/
 
-## Example
-```pawn
 #include <a_samp>
 #include <neuroadmin>
 
@@ -32,4 +33,3 @@ public OnNeuroResponse(response_status, const response[], playerid)
 	}
 	return 1;
 }
-```
