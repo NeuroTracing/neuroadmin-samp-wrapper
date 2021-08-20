@@ -36,7 +36,7 @@ stock GetNeuroResponse(const text[], const dataset[] = "hyaxe", playerid = INVAL
 {
     new url[128];
     format(url, sizeof(url), ""MAIN_NEURO_NETWORK"/"NEURO_API_KEY"/get/response/%s", dataset);
-	HTTP(playerid, HTTP_POST, url, text, "neuroadmin_GetResponse");
+    HTTP(playerid, HTTP_POST, url, text, "neuroadmin_GetResponse");
     return 1;
 }
 
@@ -45,7 +45,7 @@ stock GetNeuroCensorshipCheck(const text[], const dataset[] = "hyaxe", playerid 
 {
     new url[128];
     format(url, sizeof(url), ""MAIN_NEURO_NETWORK"/"NEURO_API_KEY"/get/censorship/%s", dataset);
-	HTTP(playerid, HTTP_POST, url, text, "neuroadmin_GetResponse");
+    HTTP(playerid, HTTP_POST, url, text, "neuroadmin_GetResponse");
     return 1;
 }
 
